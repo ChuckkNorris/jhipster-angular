@@ -21,9 +21,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:sqlserver://localhost:1433;database=jhipster
-        username: SA
-        password: yourStrong(!)Password
+        url: jdbc:sqlserver://mpi.database.windows.net:1433;database=JhipsterAngular
+        username: commander
+        password: Cobra1234
         hikari:
             data-source-properties:
                 cachePrepStmts: true
